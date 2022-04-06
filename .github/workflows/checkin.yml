@@ -20,7 +20,7 @@ jobs:
       - name: install axios
         run: npm install axios
       - name: install urlencode
-      - run: npm install urlencode
+        run: npm install urlencode
       - name: CheckIn
         run: node checkin.js
         env:
